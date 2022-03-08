@@ -21,9 +21,9 @@ MonoBehaviour:
       m_GuidLow: 5718051688332686700
       m_GuidHigh: 10259504206341706125
     m_SerializedTextureGuid:
-      m_GuidLow: 0
-      m_GuidHigh: 0
-    m_Size: {x: 0, y: 0}
+      m_GuidLow: 18015660241389867431
+      m_GuidHigh: 11069684317389528667
+    m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 0
-    m_Name: 
-    m_Texture: {fileID: 0}
+    m_Name: box
+    m_Texture: {fileID: 2800000, guid: da2bd1a77b89fa045b1eb7a93c6b9f99, type: 3}
