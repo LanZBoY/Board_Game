@@ -385,6 +385,7 @@ UnityEngine.ScriptableObject::CreateScriptableObject
 UnityEngine.ScriptableObject::CreateScriptableObjectInstanceFromType
 UnityEngine.Shader::PropertyToID
 UnityEngine.Shader::TagToID
+UnityEngine.SpriteRenderer::set_color_Injected
 UnityEngine.SubsystemBindings::DestroySubsystem
 UnityEngine.SubsystemDescriptorBindings::Create
 UnityEngine.SubsystemDescriptorBindings::GetId

@@ -6810,6 +6810,8 @@ inline void UnityEvent_1_Invoke_m12DE1B7069D3193894B06E639F7FDBDC7ACF836B (Unity
 }
 // System.Void UnityEngine.Debug::LogException(System.Exception,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogException_m6A7A404239B24E1C7CA358508923F47ABDF40D05 (Exception_t* ___exception0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___context1, const RuntimeMethod* method) ;
+// System.Void UnityEngine.SpriteRenderer::set_color_Injected(UnityEngine.Color&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRenderer_set_color_Injected_m57BA74C4EA48105B360D2DA91158D5235E9B4CE9 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___value0, const RuntimeMethod* method) ;
 // System.String System.ObsoleteAttribute::get_Message()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ObsoleteAttribute_get_Message_mEEA519E26C2F66DA3987F1AF2A28454DE021E3CF_inline (ObsoleteAttribute_tF4885B281E932B8B87A5B9AA1C24D46DEEA8FD8A* __this, const RuntimeMethod* method) ;
 // System.Int32 System.String::IndexOf(System.String)
@@ -33764,6 +33766,23 @@ IL_0025:
 	{
 		return;
 	}
+}
+// System.Void UnityEngine.SpriteRenderer::set_color(UnityEngine.Color)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRenderer_set_color_mB0EEC2845A0347E296C01C831F967731D2804546 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___value0, const RuntimeMethod* method) 
+{
+	{
+		SpriteRenderer_set_color_Injected_m57BA74C4EA48105B360D2DA91158D5235E9B4CE9(__this, (&___value0), NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.SpriteRenderer::set_color_Injected(UnityEngine.Color&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpriteRenderer_set_color_Injected_m57BA74C4EA48105B360D2DA91158D5235E9B4CE9 (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___value0, const RuntimeMethod* method) 
+{
+	typedef void (*SpriteRenderer_set_color_Injected_m57BA74C4EA48105B360D2DA91158D5235E9B4CE9_ftn) (SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*);
+	static SpriteRenderer_set_color_Injected_m57BA74C4EA48105B360D2DA91158D5235E9B4CE9_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (SpriteRenderer_set_color_Injected_m57BA74C4EA48105B360D2DA91158D5235E9B4CE9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.SpriteRenderer::set_color_Injected(UnityEngine.Color&)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
